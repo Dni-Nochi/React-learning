@@ -1,0 +1,6 @@
+.sidebar {
+  width: 520px;
+  height: 729px;
+  padding-left: 40px;
+  background-color: var(--color-grean-4);
+}
