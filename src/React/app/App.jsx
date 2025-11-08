@@ -1,12 +1,12 @@
-import EtranApp from '../components/EtranApp/EtranApp';
 import Sidebar from '../components/Sidebar/Sidebar';
+import Header from '../components/Header/Header';
 import './App.css';
 
 function App() {
   return (
     <div className="container">
       <Sidebar />
-      <EtranApp />
+      <Header />
     </div>
   );
 }

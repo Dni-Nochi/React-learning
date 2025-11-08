@@ -1,6 +1,11 @@
 .sidebar {
-  width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 355px;
   height: 729px;
+  padding-top: 30px;
   padding-left: 40px;
+  padding-right: 125px;
   background-color: var(--color-grean-4);
 }

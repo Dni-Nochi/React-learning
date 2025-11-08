@@ -6,3 +6,7 @@
   padding-top: 50px;
   width: 800px;
 }
+
+.header h3 {
+  padding-block: 50px;
+}

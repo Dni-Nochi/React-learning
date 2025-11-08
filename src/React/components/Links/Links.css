@@ -4,7 +4,21 @@
 
 .nav__brends {
   display: flex;
+  align-items: center;
   gap: 48px;
-  margin: 0;
-  padding: 0;
+}
+
+.nav__brends li:nth-child(2) .nav__brends-link,
+.nav__brends li:nth-child(3) .nav__brends-link,
+.nav__brends li:nth-child(5) .nav__brends-link {
+  font-weight: 900;
+}
+
+.nav__brends-link {
+  display: flex;
+  gap: 8px;
+  font-size: 18px;
+  fill: var(--color-grean-3);
+  color: var(--color-grean-3);
+  cursor: pointer;
 }

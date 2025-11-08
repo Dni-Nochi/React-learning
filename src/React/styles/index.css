@@ -3,10 +3,33 @@ body {
   font-family: 'figtree';
 }
 
-h3 {
-  font-weight: 400;
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 li {
   list-style: none;
+}
+
+p {
+  margin: 0;
+}
+button {
+  font-family: 'figtree';
 }

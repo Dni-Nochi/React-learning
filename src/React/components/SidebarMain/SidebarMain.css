@@ -1,0 +1,9 @@
+.sidebar-main p {
+  color: var(--color-grean-1);
+  padding-bottom: 20px;
+}
+
+.sidebar-main__offerings {
+  display: flex;
+  gap: 10px;
+}
